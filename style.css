@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+.header, .main{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+    padding: 5px;
+    text-shadow: 2px 1px 2px red;
+}
+
+.increase-btn{
+    width: 35vw;
+    height: 5vh;
+    font-size: 25px;
+    padding-inline: 10px;
+    border-radius: 8px;
+    border-color: rgba(255, 0, 0, 0.267);
+    color: red;
+    background-color: orange;
+    cursor: pointer;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(42, 192, 42, 0.342), rgba(52, 52, 223, 0.815) );
+}
