@@ -1,10 +1,11 @@
 let countEl = document.getElementById("count-no")
+let saveEl = document.getElementById("save-btn")
 let count = 0
 
 function increase(){
-    count++
-    countEl.innerText = count 
-    console.log(count)
+    countEl.innerText = count++  
 }
 
-increase()
+function save(){
+    alert("The number of People is " + count)
+}
