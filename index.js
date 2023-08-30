@@ -1,11 +1,28 @@
 let countEl = document.getElementById("count-no")
-let saveEl = document.getElementById("save-btn")
+let elEntry = document.getElementById("save-el")
+
 let count = 0
 
 function increase(){
-    countEl.innerText = count++  
+    countEl.textContent = count++ 
 }
 
 function save(){
-    alert("The number of People is " + count)
+    let entry = " " + count + " - "
+    elEntry.textContent = elEntry.textContent + entry
+    countEl.textContent = 0
+    count = 0
 }
+
+// let welcomeEl = document.getElementById("welcome-el")
+
+// let name = "Peter Fagoroye"
+// let greeting = "Welcome to Microsoft "
+// let greet = greeting + name
+
+// function wel(){
+//     welcomeEl.textContent = greet
+//     alert(greet)
+// }
+
+

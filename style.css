@@ -27,6 +27,29 @@
     cursor: pointer;
 }
 
+#welcome-el{
+    display: none;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+
+.wel-btn{
+    background-color: grey;
+    font:100;
+    padding-inline: 23px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.wel-btn:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
 body{
     background-image: linear-gradient(to right, rgba(42, 192, 42, 0.342), rgba(52, 52, 223, 0.815) );
 }
